@@ -17,7 +17,7 @@ I specialize in building machine learning systems with applications in credit ri
 ---
 
 ## 🚀 Featured Work
-- [Corporate Failure Analysis using t-SNE](projects/tsne_corp_fail)
+- [Corporate Failure Analysis using t-SNE](projects/tsne_corp_fail.html)
 
 👉 [View All Projects](projects)
 
