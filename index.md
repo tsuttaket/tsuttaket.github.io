@@ -1,18 +1,29 @@
 # Hi, I'm Thiti 👋
 
-Lead Data Scientist in Thailand 🇹🇭
+Lead Data Scientist based in Thailand 🇹🇭  
 
-## 🧠 About Me
-I work on machine learning, healthcare AI, and data-driven products.
+I build machine learning systems, healthcare AI, and data-driven products.
 
-## 📂 Projects
-- Predictive Healthcare Models
-- Customer Analytics
-- Causal Inference
+---
 
-## 📄 Publications
-- Interpretable Predictive Models for Healthcare
+## 🚀 What I Do
+- Machine Learning & Deep Learning  
+- Healthcare AI  
+- Causal Inference & Experimentation  
+- Data Product Development  
+
+---
+
+## 📌 Featured Work
+👉 [View My Projects](projects)
+
+---
+
+## ✍️ Blog
+👉 [Read My Blog](blog)
+
+---
 
 ## 📫 Contact
-- Email: your@email.com
 - GitHub: https://github.com/yourusername
+- Email: your@email.com
