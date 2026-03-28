@@ -1,3 +1,7 @@
 title: Thiti S
 description: Lead Data Scientist | AI | Healthcare | Causal Inference
 theme: minima
+
+collections:
+  projects:
+    output: true
