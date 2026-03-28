@@ -1,29 +1,32 @@
-# Hi, I'm Thiti 👋
+# Hi, I'm Thiti :)
 
 Lead Data Scientist based in Thailand 🇹🇭  
 
-I build machine learning systems, healthcare AI, and data-driven products.
+I specialize in building machine learning systems with applications in credit risk, insurance, and healthcare.
 
 ---
 
-## 🚀 What I Do
-- Machine Learning & Deep Learning  
+## Expertise
+- Machine Learning
+- Deep Learning  
 - Healthcare AI  
-- Causal Inference & Experimentation  
+- Causal Inference  
+- Predictive Modeling  
 - Data Product Development  
 
 ---
 
-## 📌 Featured Work
-👉 [View My Projects](projects)
+## 🚀 Featured Work
+- [Corporate Failure Analysis using t-SNE](projects/tsne_corp_fail)
+
+👉 [View All Projects](projects)
 
 ---
 
-## ✍️ Blog
-👉 [Read My Blog](blog)
+## ✍️ Writing
+👉 [Read Blog](blog)
 
 ---
 
 ## 📫 Contact
-- GitHub: https://github.com/yourusername
-- Email: your@email.com
+- GitHub: https://github.com/tsuttaket  
