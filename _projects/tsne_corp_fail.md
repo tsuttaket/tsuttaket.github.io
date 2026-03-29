@@ -10,3 +10,7 @@ Corporate failure is of interest to accounting and finance academia and practiti
 ## Related Concepts
 ### Order of Magnitude
 Order of magnitude is an approximate measure of the number of digits that a number has in the commonly used base-ten number system. It is equal to the whole number floor of logarithm (base 10). For example, the order of magnitude of 1500 is 3, because 1500 = 1.5 x 10^3.
+
+### t-Distributed Stochastic Neighbor Embedding (t-SNE)
+The t-SNE is non-linear, manifold learning technique to for dimensionality reduction. It is first introduced by Maaten and Hinton (2008). This technique maps a set of high-dimensional points to lower dimensions, such that ideally, close neighbours remain close to each other and distant points remain distant. It comprises two main stages. 
+First, t-SNE constructs a probability distribution over pairs of high-dimensional objects in such a way that similar objects have a high probability of being picked while dissimilar points have an extremely small probability of being picked. Second, t-SNE defines a similar probability distribution over the points in the low-dimensional map, and it minimizes the Kullback–Leibler divergence between the two distributions with respect to the locations of the points in the map.
