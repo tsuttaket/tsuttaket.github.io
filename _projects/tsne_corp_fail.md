@@ -2,55 +2,11 @@
 title: "Corporate Failure Prediction using t-SNE"
 ---
 
-## 🧠 Overview
-This project investigates corporate failure using machine learning techniques, focusing on dimensionality reduction through t-SNE.
-
-The goal is to identify patterns that distinguish failed companies from non-failed ones.
+## Introduction
+Corporate failure is of interest to accounting and finance academia and practitioners since the firms’ failure can cause difficulties to owners, managers, workers, suppliers, lenders, clients, or in some case the communities and government. Therefore predicting these failures before happening is important issue not only to individuals such as employee, suppliers, or lenders but also public identities such as regulators, central banks, and governments. There has been an attempt to predict whether them firm will be bankrupt since 1960s using machine learning and statistical techniques. For example, Altman (1968) used discriminant analysis and financial ratios to predict the corporate failure, relying on the assumption that these financial variables extracted from public financial statements, such as financial ratios, contain a large amount of information about a company’s financial status which may contribute to the bankruptcy of the firms.
 
 ---
 
-## 📊 Problem
-Corporate failure is influenced by multiple financial and governance factors.
-
-Traditional linear approaches struggle to capture complex relationships in high-dimensional data.
-
----
-
-## ⚙️ Methodology
-
-### Data
-- Financial indicators  
-- Corporate governance features  
-- Label: Failed vs Non-failed  
-
-### Approach
-- Data preprocessing and normalization  
-- Dimensionality reduction using t-SNE  
-- Visualization in 2D space  
-
----
-
-## 📈 Results
-- Observable clustering between failed and non-failed firms  
-- Some overlap highlights complexity of prediction  
-- Nonlinear structure revealed through visualization  
-
----
-
-## 🧠 Key Insights
-- Corporate failure is not linearly separable  
-- Visualization is critical for understanding structure  
-- t-SNE is useful for exploratory analysis  
-
----
-
-## 🚀 Future Work
-- Compare with UMAP and PCA  
-- Add predictive modeling layer  
-- Extend to time-series data  
-
----
-
-## 🔗 Source
-Original version on Google Sites:
-https://sites.google.com/view/tsuttaket/Corporate_Failure_tSNE
+## Related Concepts
+### Order of Magnitude
+Order of magnitude is an approximate measure of the number of digits that a number has in the commonly used base-ten number system. It is equal to the whole number floor of logarithm (base 10). For example, the order of magnitude of 1500 is 3, because 1500 = 1.5 x 10^3.
