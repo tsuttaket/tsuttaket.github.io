@@ -14,3 +14,21 @@ Order of magnitude is an approximate measure of the number of digits that a numb
 ### t-Distributed Stochastic Neighbor Embedding (t-SNE)
 The t-SNE is non-linear, manifold learning technique to for dimensionality reduction. It is first introduced by Maaten and Hinton (2008). This technique maps a set of high-dimensional points to lower dimensions, such that ideally, close neighbours remain close to each other and distant points remain distant. It comprises two main stages. 
 First, t-SNE constructs a probability distribution over pairs of high-dimensional objects in such a way that similar objects have a high probability of being picked while dissimilar points have an extremely small probability of being picked. Second, t-SNE defines a similar probability distribution over the points in the low-dimensional map, and it minimizes the Kullback–Leibler divergence between the two distributions with respect to the locations of the points in the map.
+
+---
+
+## Methodology
+Here we will propose data preprocessing method for this corporate failure prediction problem. We therefore first would like to explore the data.
+
+### Data
+In this corporate failure predict problem, we will use the data collected by Zieba et al. (2016). It is the financial data of Polish companies divided into bankrupt and healthy companies. The bankrupt companies were analyzed in the period 2000-2012 and the healthy companies were analyzed from 2007 to 2013. 64 financial indicators were collected for analysis which can be used for classifier as features.
+
+Basing on the collected data, it can be distinguished into five categories depending on the forecasting period.
+
+- 1st Year - The data contains financial rates from 1st year of the forecasting period and corresponding class label that indicates bankruptcy status after 5 years.
+
+...
+
+- 5th Year - The data contains financial rates from 5th year of the forecasting period and corresponding class label that indicates bankruptcy status after 1 year.
+
+However, it is common to expect that the number of company that is failed should be few compared to the company that is not. This type of classification problem is called "Class Imbalance Problem". We can look at the distribution of each class of our data as shown in Table 1. Here we choose to fix this problem by oversampling method (by adding more of the minority class so it has more effect on the machine learning algorithm).
